@@ -1,0 +1,316 @@
+#wrapper {
+    text-align: center;
+    width: 90%;
+    margin: auto;
+}
+
+/* ===== Global Resets and Font ===== */
+
+
+/* iOS Button Reset */
+button,
+input,
+select,
+textarea {
+    -webkit-appearance: none;
+    appearance: none;
+    font-family: inherit;
+}
+
+/* ===== Global Button Styles ===== */
+
+button {
+    background-color: #444;
+    color: white;
+    border: none;
+    padding: 10px 14px;
+    border-radius: 12px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 4px;
+    transition: background-color 0.2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {}
+
+body {
+    background-color: rgb(5, 5, 5);
+    color: antiquewhite;
+    font-family: Roboto;
+}
+
+#bullseye-logo {
+    width: 35px;
+    height: 35px;
+
+}
+
+#headerDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+}
+
+
+#addPlayerDiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    padding: 10px 0;
+    /* optional spacing */
+}
+
+
+#addPlayerBtn {
+    height: 40px;
+    width: 40px;
+    border-radius: 14px;
+}
+
+#addPlayerText {}
+
+.fa-plus {
+    font-size: 24px;
+}
+
+#gameModeDiv {
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    margin: auto;
+}
+
+.modeButton {
+    font-family: Roboto;
+    font-size: 14px;
+    border-radius: 8px;
+    padding: 16px;
+    font-weight: 500;
+}
+
+#playerListDiv {
+    margin: 10px 0px 0px 0px;
+    padding: 20px;
+    border-radius: 6px;
+    background-color: rgb(42, 42, 42);
+}
+
+#activePlayerDiv {
+    margin: 10px 0px 0px 0px;
+    padding: 20px 30px 20px 30px;
+    border-radius: 6px;
+    background-color: rgb(42, 42, 42);
+    display: flex;
+    justify-content: space-between;
+}
+
+#numberDisplayDiv {
+    margin: 10px 0px 5px 0px;
+    padding: 5px;
+    border-radius: 6px;
+    background-color: rgb(22, 22, 22);
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#changeView {
+    align-content: center;
+    padding: 10px;
+}
+
+#numberDisplay {
+    align-content: center;
+}
+
+.numberBtn {
+    font-family: Roboto;
+    margin: 4px;
+    width: 6.4rem;
+    height: 60px;
+    border-radius: 12px;
+}
+
+#numberPadDiv {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    /* centers the grid items in each cell */
+}
+
+#undoButtonDiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    padding: 10px 0 0 0;
+
+    /* optional spacing */
+}
+
+#undoBtn {
+    padding: 10px;
+    border-radius: 18px;
+    width: 40px;
+    aspect-ratio: 1/1;
+
+}
+
+#startBtn {
+    padding: 10px;
+    border-radius: 18px;
+    width: 40px;
+    aspect-ratio: 1/1;
+}
+
+#addPlayerInput {
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.playerStatDynamicDiv {
+    gap: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#statSpan {
+    margin: 10px;
+}
+
+.nameSpan {
+    width: 80px;
+    text-align: left;
+}
+
+#newGameDiv {}
+
+#newGameBtn {
+    padding: 10px;
+    border-radius: 14px;
+}
+
+#winnerDiv {
+    padding: 20px;
+}
+
+#pointButton {
+    font-family: Roboto;
+    padding: 20px;
+    border-radius: 14px;
+}
+
+#zeroButton {
+    font-family: Roboto;
+    padding: 20px;
+    border-radius: 14px;
+}
+
+#pointCounter {
+    display: flex;
+    justify-content: space-between;
+}
+
+#pointsDivConteiner {
+    margin: 10px 0px 5px 0px;
+    padding: 20px;
+    border-radius: 6px;
+    background-color: rgb(22, 22, 22);
+    display: flex;
+    justify-content: right;
+}
+
+#changeView2 {
+    margin-right: 0;
+}
+
+#pointsSpan {
+    padding: 20px;
+}
+
+#pointsDiv {}
+
+.hidden {
+    display: none !important;
+}
+
+.visible {}
+
+#timerMathDiv {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #191919;
+    padding: 25px;
+    border-radius: 14px;
+}
+
+#timerMathDiv {}
+
+#pointButtonDiv {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+#lavelDiv {
+    gap: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px 0px 20px;
+    margin-bottom: -5px;
+}
+
+.nameLabelSpan {
+    width: 100px;
+    text-align: left;
+}
+
+#reallyButtons {
+    display: flex;
+    justify-content: center;
+}
+
+#newGameDiv {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#newGameBtn {
+    padding: 20px;
+}
+
+#reallyDiv {
+    margin: auto;
+    padding: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#reallyContentDiv {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #0c0c0c;
+    padding: 25px;
+    border-radius: 15px;
+}
+
+#timerMathContainer {
+
+    padding: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

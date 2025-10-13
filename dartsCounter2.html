@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" 
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+    <link rel="stylesheet" href="dartsCounter2.css?v=2">
+    <script src="https://kit.fontawesome.com/1aa1853892.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <title>Darts Counter</title>
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="headerDiv">
+            <h1>Darts Counter</h1>
+            <img src="bullseye-dart-goal-svgrepo-com.svg" id="bullseye-logo">
+        </div>
+
+        <div id="addPlayerDiv">
+            <input id="addPlayerInput" placeholder="Player Name"></input>
+            <button id="addPlayerBtn"><i class="fa-solid fa-plus"></i></button>
+        </div>
+
+        <div id="gameModeDiv">
+            <button class="modeButton" id="301Btn">301</button>
+            <button class="modeButton" id="501Btn">501</button>
+            <button class="modeButton" id="420Btn">420</button>
+            <button class="modeButton" id="666Btn">666</button>
+            <button class="modeButton" id="CustomGameBtn"">Custom</button>
+        </div>
+        
+        <div id="lavelDiv"></div>
+        <div id="playerListDiv">
+        </div>
+
+        <div id="activePlayerDiv" class="hidden"></div>
+
+        <div id="undoButtonDiv">
+            
+            <button id="startBtn"><i class="fa-solid fa-play"></i></button>
+        </div>
+
+        <div id="numberDisplayDiv" class="hidden">
+            <button id="undoBtn" class="hidden"><i class="fa-solid fa-rotate-left"></i></button>
+            <span id="numberDisplay"></span>
+            <span id="changeView"><i class="fa-solid fa-toggle-off"></i></span>
+            
+        </div>
+
+        <div id="numberPadDiv" class="hidden">
+            <button id="Btn1" class="numberBtn">1</button>
+            <button id="Btn2" class="numberBtn">2</button>
+            <button id="Btn3" class="numberBtn">3</button>
+            <button id="Btn4" class="numberBtn">4</button>
+            <button id="Btn5" class="numberBtn">5</button>
+            <button id="Btn6" class="numberBtn">6</button>
+            <button id="Btn7" class="numberBtn">7</button>
+            <button id="Btn8" class="numberBtn">8</button>
+            <button id="Btn9" class="numberBtn">9</button>
+            <button id="backspaceBtn" class="numberBtn"><i class="fa-solid fa-delete-left"></i></button>
+            <button id="Btn0" class="numberBtn">0</button>
+            <button id="acceptBtn" class="numberBtn"><i class="fa-solid fa-check"></i></button>
+        </div>
+
+        <div id="newGameDiv" class="hidden">
+            <button id="newGameBtn">NEW GAME</button>
+        </div>
+       
+        <div id="pointCounter"></div>
+        <div id="pointButtonDiv" class="hidden"></div>
+        <div id="roundPointsDiv"></div>
+
+        <div id="timerMathContainer" class="hidden">
+            <div id="timerMathDiv"></div>
+        </div>
+
+        <div id="reallyDiv" class="hidden">
+            <div id="reallyContentDiv">
+       
+                <span>Really?</span>
+                <div id="reallyButtons">
+                    <button id="yesBtn">Yes</button>
+                    <button id="noBtn">No</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="winnerDiv"></div>
+
+    </div>
+
+
+</body>
+
+<script src="dartsCounter2.js?v=2"></script>
+
+
+
+</html>
