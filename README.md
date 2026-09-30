@@ -1,7 +1,7 @@
 # Darts Counter 🎯
 
 A browser-based darts scoring app built with **HTML, CSS, and vanilla JavaScript**.  
-It allows adding multiple players, selecting game modes (301, 501, 420, 666), and tracks scores, averages, and last throws automatically.
+It allows adding multiple players, selecting game modes (301, 501 & More), and tracks scores, averages, and last throws automatically.
 
 ## 🎮 Features
 - Add any number of players
