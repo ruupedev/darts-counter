@@ -5,7 +5,7 @@ It allows adding multiple players, selecting game modes (301, 501 & More), and t
 
 ## 🎮 Features
 - Add any number of players
-- Choose between 301, 501, 420, or 666 game modes
+- Choose between 301, 501, & More
 - Real-time score tracking and average calculation
 - Undo functionality and win detection
 - Responsive dark-themed UI
